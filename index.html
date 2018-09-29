@@ -5,7 +5,7 @@
 <!-- start head element -->
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><!-- insert page title here --></title>
+		<title>Week 5 Exercise</title>
 		<!-- baseline css styles -->
 		<!-- <link rel="stylesheet" href="css/reset.css"> -->
 		<!-- Bootstrap css link -->
@@ -20,7 +20,57 @@
 <!-- start body element -->
 	<body>
 		
-		<!-- content goes here -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">Bootstrap Components</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+			    	<ul class="navbar-nav ml-auto">
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="http://getbootstrap.com/docs/4.1/components/collapse/" target="_blank">Collapse</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="http://getbootstrap.com/docs/4.1/components/card/" target="_blank">Cards</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="http://getbootstrap.com/docs/4.1/components/buttons/" target="_blank">Buttons</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="http://getbootstrap.com/docs/4.1/components/forms/" target="_blank">Forms</a>
+	      				</li>
+	    			</ul>
+	  			</div>
+  			</div>
+		</nav>
+
+		<div class="jumbotron jumbotron-fluid">
+  			<div class="container">
+				<h1 class="display-4">Bootstrap</h1>
+				<p class="lead">We love Bootstrap because it allows us to build quick, good-looking layouts.</p>
+			</div>
+		</div>	
+
+		<div class="container">
+  			<div class="row pb-5 text-center">
+    		<div class="col-3 bg-dark text-light ml-auto">
+    			<h2>Facebook</h2>
+    			<img src="img/fb.png" alt="Facebook logo" class="img-fluid">
+    			<a href="https://www.facebook.com/" target="_blank"><button class="btn-light bg-light my-5">Learn More</button></a>
+    		</div>
+    		<div class="col-3 bg-light">
+    			<h2>Imgur</h2>
+    			<img src="img/imgur.jpg" alt="Imgur logo" class="img-fluid">
+    			<a href="https://www.imgur.com/" target="_blank"><button class="btn-dark bg-dark my-5">Learn More</button></a>
+    		</div>
+    		<div class="col-3 bg-dark text-light mr-auto">
+    			<h2>Reddit</h2>
+    			<img src="img/reddit.png" alt="Reddit logo" class="img-fluid">
+    			<a href="https://www.reddit.com/" target="_blank"><button class="btn-light bg-light my-5">Learn More</button></a>
+    		</div>
+  		</div>
+	</div>
 
 <!-- Bootstrap scripts -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
